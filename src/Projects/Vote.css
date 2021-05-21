@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    color: #222;
+    font-size: 24px; 
+    font-family: cursive;
+    background-image: url("https://cdn.pixabay.com/photo/2021/04/27/15/04/wagtail-6211745__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    margin: 30px;
+  }
+  
+  .languages {
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .language {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    /* background-color: rgb(194, 144, 70); */
+    border: 1px double #222;
+    margin: 2px;
+  }
+  
+  .voteCount {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .language button {
+    color: rgb(116, 219, 47);
+    background-color: #0000;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    cursor: pointer;
+    font-family: cursive;
+  }
